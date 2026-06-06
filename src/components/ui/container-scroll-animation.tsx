@@ -80,3 +80,8 @@ export const Card = ({
     >
       {/* iPad landscape inner frame */}
       <div className="h-full w-full overflow-hidden rounded-2xl bg-background md:rounded-2xl relative">
+               {children}
+      </div>
+    </motion.div>
+  );
+};
